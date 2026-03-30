@@ -11,3 +11,14 @@ Responsibilities:
 - Apply scaling factors if needed
 - Handle Landsat-specific quirks
 """
+from base import BaseReader
+
+class Landsat8Reader(BaseReader):
+
+    def read_data(self):
+        """(Source Specific: Reads data from source-specific data/file format to unified)"""
+        raise NotImplementedError #for now as TBD
+
+    def read_metadata(self):
+        """(Source Specific: Reads metadata from source-specific metadata format to unified)"""
+        raise NotImplementedError #for now as TBD
