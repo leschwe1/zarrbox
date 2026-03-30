@@ -1,0 +1,3 @@
+{
+  "_comment": "Configuration for Sentinel-2 reader. Defines band mapping, resolutions, and processing defaults."
+}
